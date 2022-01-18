@@ -171,6 +171,7 @@ for name in glob.glob("*.log"):
 
 df=pd.DataFrame(myList)
 print(df)
+df.to_csv("/benchmark/logs/compare.csv")
 print("Stop")
 
 
